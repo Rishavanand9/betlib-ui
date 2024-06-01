@@ -3,6 +3,8 @@
   "version": "0.1.1-alpha.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "author": "rishav anand",
+  "license": "ISC",
   "scripts": {
     "dev": "craco next dev",
     "build": "next build",
