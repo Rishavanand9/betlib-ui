@@ -1,7 +1,7 @@
 import React from 'react';
 import { Meta, StoryFn } from '@storybook/react/types-6-0';
 import Header, { HeaderProps } from './Header';
-import { ThemeProvider } from '../../context/ThemeContext';
+import { ThemeProvider } from '../../context/ThemeContext/ThemeContext';
 
 export default {
   title: 'Components/Header',

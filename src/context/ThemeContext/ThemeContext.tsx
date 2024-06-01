@@ -1,19 +1,6 @@
 import React, { createContext, useContext, ReactNode, useState } from 'react';
 import { ThemeProvider as SCThemeProvider, DefaultTheme } from 'styled-components';
-
-export const lightTheme: DefaultTheme = {
-  bgColor: 'white',
-  textColor: 'black',
-  primaryColor: 'blue',
-  primaryColorDark: 'darkblue',
-};
-
-export const darkTheme: DefaultTheme = {
-  bgColor: 'black',
-  textColor: 'white',
-  primaryColor: 'darkblue',
-  primaryColorDark: 'navy',
-};
+import { darkTheme, lightTheme } from './theme';
 
 type ThemeContextType = {
   theme: DefaultTheme;
