@@ -11,6 +11,8 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
+    "declaration": true,  // Add this line
+    "outDir": "./dist",    // Ensure your build output is in a specific directory
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
